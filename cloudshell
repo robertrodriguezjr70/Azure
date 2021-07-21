@@ -1,0 +1,7 @@
+Get-AzVM
+New-AzVM
+Remove-AzVM
+
+Get-AzVirtualNetwork
+New-AzVirtualNetwork
+Remove-AzVirtualNetwork
