@@ -1,0 +1,24 @@
+# https://docs.azure.cn/zh-cn/cli/reference-index?view=azure-cli-latest  <-- command ref
+
+az group create --name 'MyResourceGroup' --location 'frn00006'
+
+az vm list
+
+az vm create \
+    --resource-group $ResourceGroupName \
+    --name $VmName \
+    --image win2016datacenter \
+    --admin-username azureuser \
+    --admin-password $AdminPassword \
+    --size Basic_A1 \
+    --use-unmanaged-disk \
+    --storage-sku Standard_LRS
+
+az vm delete
+
+az keyvault list
+az keyvault create
+az keyvaulte delete 
+
+az netowrk vnet list
+az netowrk vnet subnet list
