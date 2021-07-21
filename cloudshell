@@ -1,3 +1,5 @@
+Connect-AZaccount
+
 Get-AzVM
 New-AzVM
 Remove-AzVM
