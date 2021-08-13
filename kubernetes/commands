@@ -2,4 +2,8 @@ az aks get-credentials --resource-group <resource group name> --name <cluster na
 
 kubectl get deployments --all-namespaces=true
 
+kubectl create deployment httpd-deployment --image=09111190/httpd:1
+kubectl create pod httpd-pod --image=09111190/httpd:1
+
 kubectl expose pod <podname> --type=LoadBalancer --port=80 --name=<service-name>
+kubectl expose  deployment <podname> --type=LoadBalancer --port=80 --name=<service-name>
