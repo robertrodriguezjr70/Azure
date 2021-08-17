@@ -1,3 +1,5 @@
+https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#expose
+
 az aks get-credentials --resource-group <resource group name> --name <cluster name>    <-- connecting to cluster after creating it in Azure
 
 kubectl get deployments --all-namespaces=true
